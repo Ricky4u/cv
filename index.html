@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritesh Personal Site</title>
+</head>
+
+
+<body>
+    <h1>My Contact deatails</h1>
+    <p>My fictional Address</p>
+    <p>mygemail@gmail.com</p>
+
+   <!--simple form which will send a get request-->
+   <form  method="post"
+          enctype="application/x-www-form-urlencoded"
+          action="https://pizza.example.com/order.cgi">
+      <p><label>Customer name: <input name="customer" required ></label></p>
+      <p><label> telephone: <input type=tel name="custtel"></label></p>
+      <p><Label> Email address: <input type=email name=custemail></Label></p>
+      <p><label> Address: <input type=Address></label></p>
+      <fieldset>
+          <legend> Pizza Size</legend>
+          <P><lable><input type=radio name=size required value="small"> </lable></P>
+          <P><Lable><input type=radio name=size required value="Medium"> </Lable></P>
+          <p><lable><input type=radio name=size required value="Large"></lable></p>
+      </fieldset>
+      <fieldset>
+          <legend> Pizz Toppings </legend>
+          <p><lable><input type=checkbox name="topping" value="Bacon"></lable></p>
+          <p><lable><input type=checkbox name="topping" value="Extra cheese"></lable></p>
+          <p><lable><input type=checkbox name="topping" value="onion"></lable></p>
+          <P><lable><input type=checkbox name="topping" value="Musharoom"></lable></P>
+      </fieldset> 
+      <p><label>Preferred delivery time: <input type=time min="11:00" max="21:00" step="900" name="delivery" required></label></p>
+      <p><label>Delivery instruction:<textarea></textarea></label></p>
+      <p><button> Submitt order</button></p>
+   </form>
+
+
+ 
+            
+
+   
+    
